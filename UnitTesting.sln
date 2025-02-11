@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fundamentals", "Fundamentals", "{6F02E934-2C76-4ED5-805F-C7DFB41BF1FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{43C00A1F-590B-470C-AFE3-EE0ED4C663B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorLibrary", "Fundamentals\src\CalculatorLibrary\CalculatorLibrary.csproj", "{78B4B670-77F9-4F99-B171-AB7D9866B5B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{1E5B054B-F898-431E-B87A-29D2AFE13204}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorLibrary.Tests.Unit", "Fundamentals\test\CalculatorLibrary.Tests.Unit\CalculatorLibrary.Tests.Unit.csproj", "{1B4C3E40-E62E-4CAC-A3E7-9B900A0800D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78B4B670-77F9-4F99-B171-AB7D9866B5B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78B4B670-77F9-4F99-B171-AB7D9866B5B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78B4B670-77F9-4F99-B171-AB7D9866B5B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78B4B670-77F9-4F99-B171-AB7D9866B5B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B4C3E40-E62E-4CAC-A3E7-9B900A0800D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B4C3E40-E62E-4CAC-A3E7-9B900A0800D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B4C3E40-E62E-4CAC-A3E7-9B900A0800D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B4C3E40-E62E-4CAC-A3E7-9B900A0800D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{43C00A1F-590B-470C-AFE3-EE0ED4C663B8} = {6F02E934-2C76-4ED5-805F-C7DFB41BF1FF}
+		{78B4B670-77F9-4F99-B171-AB7D9866B5B2} = {43C00A1F-590B-470C-AFE3-EE0ED4C663B8}
+		{1E5B054B-F898-431E-B87A-29D2AFE13204} = {6F02E934-2C76-4ED5-805F-C7DFB41BF1FF}
+		{1B4C3E40-E62E-4CAC-A3E7-9B900A0800D3} = {1E5B054B-F898-431E-B87A-29D2AFE13204}
+	EndGlobalSection
+EndGlobal
